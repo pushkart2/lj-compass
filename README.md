@@ -15,7 +15,7 @@ Runs at ~ 0.05 to 0.08
 
 # Dependencies
 * [lj-hud](https://github.com/loljoshie/lj-hud) **this is only compatiable with lj-hud**
-* [lj-hud](https://github.com/loljoshie/lj-menu) **this is only compatiable with lj-menu**
+* [lj-menu](https://github.com/loljoshie/lj-menu) **this is only compatiable with lj-menu**
 
 # Key Features
 * Toggleable Compass
