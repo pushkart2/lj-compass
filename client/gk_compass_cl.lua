@@ -8,7 +8,6 @@ local function updateCompass(data)
 end
 
 RegisterNetEvent("lj-compass:client:showCompass", function()
-	print(showCompass)
     showCompass = not showCompass
     if showCompass == true then
         showCompass = true
@@ -21,6 +20,7 @@ RegisterNetEvent("lj-compass:client:showCompass", function()
         })
         showCompass = false
     end
+	TriggerEvent("hud:client:checklistSounds")
 end)
 
 RegisterNUICallback('HideCompass', function()
@@ -30,7 +30,7 @@ end)
 RegisterNetEvent("hud:client:HideCompass", function()
 	if  IsPedInAnyVehicle(PlayerPedId()) then
 		TriggerEvent("lj-compass:client:showCompass")
-		TriggerEvent("hud:client:playHudSound")
+		TriggerEvent("hud:client:checklistSounds")
 	else 
 		TriggerEvent('QBCore:Notify', "Low Fuel!", "error")
 	end
@@ -55,5 +55,3 @@ Citizen.CreateThread( function()
 		lastHeading = heading
 	end
 end)
-
-
