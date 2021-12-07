@@ -20,6 +20,7 @@ RegisterNetEvent("lj-compass:client:showStreets", function()
         })
         showStreets = false
     end
+	TriggerEvent("hud:client:checklistSounds")
 end)
 
 RegisterNUICallback('HideStreets', function()
@@ -28,7 +29,7 @@ end)
 
 RegisterNetEvent("hud:client:HideStreets", function()
 	TriggerEvent("lj-compass:client:showStreets")
-	TriggerEvent("hud:client:playHudSound")
+	TriggerEvent("hud:client:checklistSounds")
 end)
 
 Citizen.CreateThread( function()
