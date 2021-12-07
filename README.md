@@ -1,4 +1,4 @@
-
+![LJ COMPASS](https://user-images.githubusercontent.com/91661118/144970494-e3a9c3a3-1189-4ec6-997f-655e4d938055.png)
 
 # 🎅🎄🎁 lj-compass used with QBCore Framework 🍪🦌🤶
 # MADE FOR lj-hud & lj-menu
@@ -11,7 +11,7 @@ This was **specifically made for [lj-hud](https://github.com/loljoshie/lj-hud) a
 <br>
 If you're looking for the standalone version [lj-compass-old](https://github.com/loljoshie/lj-compass-old) 
 <br>
-Runs at ~ 0.07 to 0.014
+Runs at ~ 0.05 to 0.08
 
 # Dependencies
 * [lj-hud](https://github.com/loljoshie/lj-hud) **this is only compatiable with lj-hud**
