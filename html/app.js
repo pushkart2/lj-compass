@@ -85,6 +85,7 @@ window.addEventListener("message", function (event) {
     } else if (event.data.action == "hide") {
         $(".bar").show();
         $(".streetA").fadeOut();
+        $(".streetB").fadeOut();
         $(".ui").fadeOut();
     }
 });
